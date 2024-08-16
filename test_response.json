@@ -1,0 +1,1870 @@
+{
+  "playlists": {
+    "href": "https://api.spotify.com/v1/search?query=liked+songs&type=playlist&market=US&locale=en-US%2Cen%3Bq%3D0.5&offset=0&limit=50",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "Added them all to an actual playlist for easier arranging and stuff",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5P35fO7yXSnTKf4oLoSGek"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5P35fO7yXSnTKf4oLoSGek",
+        "id": "5P35fO7yXSnTKf4oLoSGek",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb5a7a0b97ddaff676a2191b34",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs Playlist",
+        "owner": {
+          "display_name": "cool person",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31up4gl7nllfgerxn4fdm3hsbk2m"
+          },
+          "href": "https://api.spotify.com/v1/users/31up4gl7nllfgerxn4fdm3hsbk2m",
+          "id": "31up4gl7nllfgerxn4fdm3hsbk2m",
+          "type": "user",
+          "uri": "spotify:user:31up4gl7nllfgerxn4fdm3hsbk2m"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjUzLDNmZjhlYjhiNDg5MTY3YzhmMzU1Yzc4MjA2NDk5MTY5ZmZiNTE3OWQ=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5P35fO7yXSnTKf4oLoSGek/tracks",
+          "total": 144
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5P35fO7yXSnTKf4oLoSGek"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2cK479BGdvQBhVuSqDoqN2"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2cK479BGdvQBhVuSqDoqN2",
+        "id": "2cK479BGdvQBhVuSqDoqN2",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2731de27f12958ceb8b1f65461aab67616d0000b273328ba1034774366865d78ac1ab67616d0000b27337c1b699fc54840d618e37b4ab67616d0000b2733c534611bd3658006378a2d7",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2731de27f12958ceb8b1f65461aab67616d0000b273328ba1034774366865d78ac1ab67616d0000b27337c1b699fc54840d618e37b4ab67616d0000b2733c534611bd3658006378a2d7",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2731de27f12958ceb8b1f65461aab67616d0000b273328ba1034774366865d78ac1ab67616d0000b27337c1b699fc54840d618e37b4ab67616d0000b2733c534611bd3658006378a2d7",
+            "width": 60
+          }
+        ],
+        "name": "My Liked Songs",
+        "owner": {
+          "display_name": "Eric",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/jn9sx14q5maeoe6cydoz5m807"
+          },
+          "href": "https://api.spotify.com/v1/users/jn9sx14q5maeoe6cydoz5m807",
+          "id": "jn9sx14q5maeoe6cydoz5m807",
+          "type": "user",
+          "uri": "spotify:user:jn9sx14q5maeoe6cydoz5m807"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MzY5LDNjMzMyODYyMzk1MzFmY2JlNDZjMmI2NzFmNTk4MWNiMjVjNjc5OWI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2cK479BGdvQBhVuSqDoqN2/tracks",
+          "total": 355
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2cK479BGdvQBhVuSqDoqN2"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4IepDbNQSRbx7dIKRwVpm0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4IepDbNQSRbx7dIKRwVpm0",
+        "id": "4IepDbNQSRbx7dIKRwVpm0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb587ecba4a27774b2f6f07174",
+            "width": null
+          }
+        ],
+        "name": "my liked songs",
+        "owner": {
+          "display_name": "Ray Crouzieres",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31ksrlssmqv3hpsy7vdm5u7f3v2e"
+          },
+          "href": "https://api.spotify.com/v1/users/31ksrlssmqv3hpsy7vdm5u7f3v2e",
+          "id": "31ksrlssmqv3hpsy7vdm5u7f3v2e",
+          "type": "user",
+          "uri": "spotify:user:31ksrlssmqv3hpsy7vdm5u7f3v2e"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTU0NCw2NDFkNzM2MWQ0MGEzYzVlNTVlNzJlY2RmNzlmOGNiZWJiMmRmZWFl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4IepDbNQSRbx7dIKRwVpm0/tracks",
+          "total": 1484
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4IepDbNQSRbx7dIKRwVpm0"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4mej3GFabn8e9timRenDDe"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4mej3GFabn8e9timRenDDe",
+        "id": "4mej3GFabn8e9timRenDDe",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbe617a10bc8b72ecba1ab5698",
+            "width": null
+          }
+        ],
+        "name": "My Favorites Collection",
+        "owner": {
+          "display_name": "DJ MightyBenz",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/bsreeves2012"
+          },
+          "href": "https://api.spotify.com/v1/users/bsreeves2012",
+          "id": "bsreeves2012",
+          "type": "user",
+          "uri": "spotify:user:bsreeves2012"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MzgxNCw5NmFjOWI5OThmNjZiNTAyNDBmMWQ2ZjQ4YzFmNjE0Y2YyOGZkYzU4",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4mej3GFabn8e9timRenDDe/tracks",
+          "total": 3747
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4mej3GFabn8e9timRenDDe"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4xAVTlRJhUcwE37LSUFTQR"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4xAVTlRJhUcwE37LSUFTQR",
+        "id": "4xAVTlRJhUcwE37LSUFTQR",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbffe1dc32f53235e2df7bbc9a",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "adamantite",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31sul5kyjrjymqzzvpy4p7dbvgwa"
+          },
+          "href": "https://api.spotify.com/v1/users/31sul5kyjrjymqzzvpy4p7dbvgwa",
+          "id": "31sul5kyjrjymqzzvpy4p7dbvgwa",
+          "type": "user",
+          "uri": "spotify:user:31sul5kyjrjymqzzvpy4p7dbvgwa"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NzI4LDNjZDQwZDIzYmM3Y2RhZDBiNzk2YjJkZGQxNzZmZTY4YzRiZmZiMjc=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4xAVTlRJhUcwE37LSUFTQR/tracks",
+          "total": 235
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4xAVTlRJhUcwE37LSUFTQR"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5WHKMeO1vR5rOZWbGmsvaH"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5WHKMeO1vR5rOZWbGmsvaH",
+        "id": "5WHKMeO1vR5rOZWbGmsvaH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b273377198e5b790b5ebf137bd83ab67616d0000b2735375070081edf3a7b188f0c7ab67616d0000b2735ccd022a69a4da9551efd988ab67616d0000b27362ef34ea93e13e644cd4c5e9",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b273377198e5b790b5ebf137bd83ab67616d0000b2735375070081edf3a7b188f0c7ab67616d0000b2735ccd022a69a4da9551efd988ab67616d0000b27362ef34ea93e13e644cd4c5e9",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b273377198e5b790b5ebf137bd83ab67616d0000b2735375070081edf3a7b188f0c7ab67616d0000b2735ccd022a69a4da9551efd988ab67616d0000b27362ef34ea93e13e644cd4c5e9",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Cardio Ric",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/12158981349"
+          },
+          "href": "https://api.spotify.com/v1/users/12158981349",
+          "id": "12158981349",
+          "type": "user",
+          "uri": "spotify:user:12158981349"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NTI5LDRiMzYzOWI2NDZlOTU5OWJhZWUwNzcxNzZiYTgzYmY0ZjQxOTJmMjY=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5WHKMeO1vR5rOZWbGmsvaH/tracks",
+          "total": 476
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5WHKMeO1vR5rOZWbGmsvaH"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2SYeq5r48661tfHdLVu06Q"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2SYeq5r48661tfHdLVu06Q",
+        "id": "2SYeq5r48661tfHdLVu06Q",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbdc338839c9e6c77bc1815f37",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "S̴̛͍t̶̛͔͂e̴̞͐͂͜l̶̢̀͑l̸͚͔̇a̴͉̰̅~̴̠͎͊R̶̘̤̿e̶̜͆͘~̶͈̑̈́D̷̟͖̈́ã̴̭̲c̷͙̥̍̈́t̴͇̂͝ẽ̸͈͈d̴͖̬͊̄",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/314vfjirq4apzfiveuvfqdxfqijy"
+          },
+          "href": "https://api.spotify.com/v1/users/314vfjirq4apzfiveuvfqdxfqijy",
+          "id": "314vfjirq4apzfiveuvfqdxfqijy",
+          "type": "user",
+          "uri": "spotify:user:314vfjirq4apzfiveuvfqdxfqijy"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTk5LGNjODc2YjA2MGQyM2FhY2IxNzVjZDg3ODA3NzhmZWZlNDZjOWNmOTE=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2SYeq5r48661tfHdLVu06Q/tracks",
+          "total": 151
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2SYeq5r48661tfHdLVu06Q"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2ipRxB8nGvPT01eHSD8ukc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2ipRxB8nGvPT01eHSD8ukc",
+        "id": "2ipRxB8nGvPT01eHSD8ukc",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb06a946e5f80136f4eb265103",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "emily 🦄",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/5oazj97jjpu5u05htdg1zuf9n"
+          },
+          "href": "https://api.spotify.com/v1/users/5oazj97jjpu5u05htdg1zuf9n",
+          "id": "5oazj97jjpu5u05htdg1zuf9n",
+          "type": "user",
+          "uri": "spotify:user:5oazj97jjpu5u05htdg1zuf9n"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTgsNTkwZDM2M2MzNzk0YTI0ZWIwODljNjYyNzMzMWM0MDZiNmY2ZGQwMQ==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2ipRxB8nGvPT01eHSD8ukc/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2ipRxB8nGvPT01eHSD8ukc"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4MtO9KXMcr2Rhk3xih8e0d"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4MtO9KXMcr2Rhk3xih8e0d",
+        "id": "4MtO9KXMcr2Rhk3xih8e0d",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb8dc978a37f58d5265c59b794",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "skirl",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/10olnmvpwmzdth54k6byl3tne"
+          },
+          "href": "https://api.spotify.com/v1/users/10olnmvpwmzdth54k6byl3tne",
+          "id": "10olnmvpwmzdth54k6byl3tne",
+          "type": "user",
+          "uri": "spotify:user:10olnmvpwmzdth54k6byl3tne"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "Mjg0NSwxMTdmMzA4MzYzZTRiYTI5NjAxY2JjMGRmOTJjMGMyMmQ3Y2YzOTE5",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4MtO9KXMcr2Rhk3xih8e0d/tracks",
+          "total": 2424
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4MtO9KXMcr2Rhk3xih8e0d"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0pSsjHRENXNUint8fxUSp6"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0pSsjHRENXNUint8fxUSp6",
+        "id": "0pSsjHRENXNUint8fxUSp6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2730b1ee9a3fa131e4f59998657ab67616d0000b2732f44aec83b20e40f3baef73cab67616d0000b2739f8e01771aac41ddd32a5d2cab67616d0000b273f8e77075414234fd77fce32b",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2730b1ee9a3fa131e4f59998657ab67616d0000b2732f44aec83b20e40f3baef73cab67616d0000b2739f8e01771aac41ddd32a5d2cab67616d0000b273f8e77075414234fd77fce32b",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2730b1ee9a3fa131e4f59998657ab67616d0000b2732f44aec83b20e40f3baef73cab67616d0000b2739f8e01771aac41ddd32a5d2cab67616d0000b273f8e77075414234fd77fce32b",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Timothy Jones",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/1255110258"
+          },
+          "href": "https://api.spotify.com/v1/users/1255110258",
+          "id": "1255110258",
+          "type": "user",
+          "uri": "spotify:user:1255110258"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "Mjk3LDEzOGFjYzY5MDE3NDdjM2JlOWRiZDI5NWVlYTc4ZDhlMDA1ZTJiMDI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0pSsjHRENXNUint8fxUSp6/tracks",
+          "total": 1383
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0pSsjHRENXNUint8fxUSp6"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/12aBmLhwPBaokj1Ih4ZZSf"
+        },
+        "href": "https://api.spotify.com/v1/playlists/12aBmLhwPBaokj1Ih4ZZSf",
+        "id": "12aBmLhwPBaokj1Ih4ZZSf",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2737d419ac975423c069995c7bbab67616d0000b273d419ed4f1e89669ce14bd369ab67616d0000b273e419ccba0baa8bd3f3d7abf2ab67616d0000b273fe24dcd263c08c6dd84b6e8c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2737d419ac975423c069995c7bbab67616d0000b273d419ed4f1e89669ce14bd369ab67616d0000b273e419ccba0baa8bd3f3d7abf2ab67616d0000b273fe24dcd263c08c6dd84b6e8c",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2737d419ac975423c069995c7bbab67616d0000b273d419ed4f1e89669ce14bd369ab67616d0000b273e419ccba0baa8bd3f3d7abf2ab67616d0000b273fe24dcd263c08c6dd84b6e8c",
+            "width": 60
+          }
+        ],
+        "name": "my favorites",
+        "owner": {
+          "display_name": "eberharts-us",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/eberharts-us"
+          },
+          "href": "https://api.spotify.com/v1/users/eberharts-us",
+          "id": "eberharts-us",
+          "type": "user",
+          "uri": "spotify:user:eberharts-us"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NjI1NyxmNjVhZTdjMThkYTk0MjhmNmMxZDNmODdhYThiOTE2MWUyYWIzZjU2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/12aBmLhwPBaokj1Ih4ZZSf/tracks",
+          "total": 5768
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:12aBmLhwPBaokj1Ih4ZZSf"
+      },
+      {
+        "collaborative": false,
+        "description": "This is to get Spotify&#x27;s recomendations",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5kkVkXNPSTRYRSSIpM16CZ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5kkVkXNPSTRYRSSIpM16CZ",
+        "id": "5kkVkXNPSTRYRSSIpM16CZ",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbb44dd21edf2bed811bb6415d",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "FaTaL Knight36",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/panda102099"
+          },
+          "href": "https://api.spotify.com/v1/users/panda102099",
+          "id": "panda102099",
+          "type": "user",
+          "uri": "spotify:user:panda102099"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NzkxLGNkZDlmMTA2YThlNDRlMzMxNjgzOGNlZTY4OTIyNTEyMjU5OTZkZGU=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5kkVkXNPSTRYRSSIpM16CZ/tracks",
+          "total": 721
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5kkVkXNPSTRYRSSIpM16CZ"
+      },
+      {
+        "collaborative": false,
+        "description": "sal fishers liked songs",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4NISFJs4nvmz9SZ78bnt5Y"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4NISFJs4nvmz9SZ78bnt5Y",
+        "id": "4NISFJs4nvmz9SZ78bnt5Y",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb38e4e9a2602f82cbf635fd9f",
+            "width": null
+          }
+        ],
+        "name": "POV: U look at Sals liked songs",
+        "owner": {
+          "display_name": "Allena Barker",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/allenabarker"
+          },
+          "href": "https://api.spotify.com/v1/users/allenabarker",
+          "id": "allenabarker",
+          "type": "user",
+          "uri": "spotify:user:allenabarker"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTAsNDQ0ZmFkMGZlM2M0ZTc5NzA2ZWUyZDBlMzRkMTZiMjAzODlkZWUyMw==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4NISFJs4nvmz9SZ78bnt5Y/tracks",
+          "total": 84
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4NISFJs4nvmz9SZ78bnt5Y"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/6AUn6BIZ3aXo6RVwvIERTh"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6AUn6BIZ3aXo6RVwvIERTh",
+        "id": "6AUn6BIZ3aXo6RVwvIERTh",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2730b5a187156ded6610181c8d8ab67616d0000b2735306ed42ae78f317258c51bbab67616d0000b273f0fefce0c0c609b812dca32aab67616d0000b273f607580794ed5b352884fd47",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2730b5a187156ded6610181c8d8ab67616d0000b2735306ed42ae78f317258c51bbab67616d0000b273f0fefce0c0c609b812dca32aab67616d0000b273f607580794ed5b352884fd47",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2730b5a187156ded6610181c8d8ab67616d0000b2735306ed42ae78f317258c51bbab67616d0000b273f0fefce0c0c609b812dca32aab67616d0000b273f607580794ed5b352884fd47",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Vaughn",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31rxskluqhc6dkdis4bkrm5bim4i"
+          },
+          "href": "https://api.spotify.com/v1/users/31rxskluqhc6dkdis4bkrm5bim4i",
+          "id": "31rxskluqhc6dkdis4bkrm5bim4i",
+          "type": "user",
+          "uri": "spotify:user:31rxskluqhc6dkdis4bkrm5bim4i"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTMzLDBlNzFiZTQzMjkwNmJiZWM0MjA5NWI4N2Y1YTVlOWMwMjFjMjdlMjE=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/6AUn6BIZ3aXo6RVwvIERTh/tracks",
+          "total": 928
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6AUn6BIZ3aXo6RVwvIERTh"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5iVSNFcfHflZJFcKLPTrbz"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5iVSNFcfHflZJFcKLPTrbz",
+        "id": "5iVSNFcfHflZJFcKLPTrbz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b273cf1fee2a55e98e22bf358512ab67616d0000b273d4bf57d09abc45198f0b2408ab67616d0000b273eb92d8d326f4772dc2fd6cfaab67616d0000b273f1157b7dcd21bae0c2c75d89",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b273cf1fee2a55e98e22bf358512ab67616d0000b273d4bf57d09abc45198f0b2408ab67616d0000b273eb92d8d326f4772dc2fd6cfaab67616d0000b273f1157b7dcd21bae0c2c75d89",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b273cf1fee2a55e98e22bf358512ab67616d0000b273d4bf57d09abc45198f0b2408ab67616d0000b273eb92d8d326f4772dc2fd6cfaab67616d0000b273f1157b7dcd21bae0c2c75d89",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs on Spotify",
+        "owner": {
+          "display_name": "Gina Logrande",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/1257875563"
+          },
+          "href": "https://api.spotify.com/v1/users/1257875563",
+          "id": "1257875563",
+          "type": "user",
+          "uri": "spotify:user:1257875563"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTg0LDcwNzJkZDFlMTUyOGUyMThiNmNkN2VhNjk5YmIzOWRmMmUxYjE4ZDA=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5iVSNFcfHflZJFcKLPTrbz/tracks",
+          "total": 202
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5iVSNFcfHflZJFcKLPTrbz"
+      },
+      {
+        "collaborative": false,
+        "description": "All the best songs in one playlist",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/13ztiA9dc4YvMT3K6F11qw"
+        },
+        "href": "https://api.spotify.com/v1/playlists/13ztiA9dc4YvMT3K6F11qw",
+        "id": "13ztiA9dc4YvMT3K6F11qw",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb70d229cb865e8d81cdce0889",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs Playlist",
+        "owner": {
+          "display_name": "brookebstewart",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/brookebstewart"
+          },
+          "href": "https://api.spotify.com/v1/users/brookebstewart",
+          "id": "brookebstewart",
+          "type": "user",
+          "uri": "spotify:user:brookebstewart"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjY5NCxjOWU0NTUwYTk4M2VkMzdiYjU4NGFlMzUxOGQwNDMwN2Q4MTZjMTQz",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/13ztiA9dc4YvMT3K6F11qw/tracks",
+          "total": 2339
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:13ztiA9dc4YvMT3K6F11qw"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/6gf8Eu3A4DDFfsvmezty3I"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6gf8Eu3A4DDFfsvmezty3I",
+        "id": "6gf8Eu3A4DDFfsvmezty3I",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbcdbbe24c44e198605b458ed2",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Josh",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31mlszgrf6mweta6mwt4sjympkrm"
+          },
+          "href": "https://api.spotify.com/v1/users/31mlszgrf6mweta6mwt4sjympkrm",
+          "id": "31mlszgrf6mweta6mwt4sjympkrm",
+          "type": "user",
+          "uri": "spotify:user:31mlszgrf6mweta6mwt4sjympkrm"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NzU0LDdkYWJkZmFiMzNjMzcwNTMxYWU1MmQ0YjJmZmI2M2ZhYTU4NTIwOTA=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/6gf8Eu3A4DDFfsvmezty3I/tracks",
+          "total": 719
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6gf8Eu3A4DDFfsvmezty3I"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1kF5vWn1ccrQsCoPVynx77"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1kF5vWn1ccrQsCoPVynx77",
+        "id": "1kF5vWn1ccrQsCoPVynx77",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2730fbdbfc4dd5b2b93448c7104ab67616d0000b2736bd1e09db7e85e54706583f5ab67616d0000b273b2e3c077f18ac23bae21bc1bab67616d0000b273b9dd535b522aba26fabe3aba",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2730fbdbfc4dd5b2b93448c7104ab67616d0000b2736bd1e09db7e85e54706583f5ab67616d0000b273b2e3c077f18ac23bae21bc1bab67616d0000b273b9dd535b522aba26fabe3aba",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2730fbdbfc4dd5b2b93448c7104ab67616d0000b2736bd1e09db7e85e54706583f5ab67616d0000b273b2e3c077f18ac23bae21bc1bab67616d0000b273b9dd535b522aba26fabe3aba",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "isklamia13",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/isklamia13"
+          },
+          "href": "https://api.spotify.com/v1/users/isklamia13",
+          "id": "isklamia13",
+          "type": "user",
+          "uri": "spotify:user:isklamia13"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTA4LDk2NzNkMGRjYWViYmZhMTBjNTc5YTA1YzIzNzYyMjY1NzUxOTg3MGQ=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1kF5vWn1ccrQsCoPVynx77/tracks",
+          "total": 7722
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1kF5vWn1ccrQsCoPVynx77"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2Wp0GPD0h1fhqgP0m7I5OS"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2Wp0GPD0h1fhqgP0m7I5OS",
+        "id": "2Wp0GPD0h1fhqgP0m7I5OS",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb91091caa26ab2e1a9396aadb",
+            "width": null
+          }
+        ],
+        "name": "Liked songs ",
+        "owner": {
+          "display_name": "Julia",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/xa9ytgl0e4l0m68ngntfvivd6"
+          },
+          "href": "https://api.spotify.com/v1/users/xa9ytgl0e4l0m68ngntfvivd6",
+          "id": "xa9ytgl0e4l0m68ngntfvivd6",
+          "type": "user",
+          "uri": "spotify:user:xa9ytgl0e4l0m68ngntfvivd6"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjI2LDAzMzlmMTI4NmFmMWMzYjJmY2RmM2Q1YzAxMTdmNzZhNTI5YmZiZWU=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2Wp0GPD0h1fhqgP0m7I5OS/tracks",
+          "total": 184
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2Wp0GPD0h1fhqgP0m7I5OS"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2WXa6MfCl89LjkkemTnQPF"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2WXa6MfCl89LjkkemTnQPF",
+        "id": "2WXa6MfCl89LjkkemTnQPF",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb03e1ff3fe6a0f18048330d41",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "amalia",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/wsikpxu4y6t4tduiyykkj5y1o"
+          },
+          "href": "https://api.spotify.com/v1/users/wsikpxu4y6t4tduiyykkj5y1o",
+          "id": "wsikpxu4y6t4tduiyykkj5y1o",
+          "type": "user",
+          "uri": "spotify:user:wsikpxu4y6t4tduiyykkj5y1o"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTE2NyxhMTE5NzNlZjQwNTIyNTZlNWM1OTJiM2M4N2NjMTI3NDgxMGUyYzMy",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2WXa6MfCl89LjkkemTnQPF/tracks",
+          "total": 908
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2WXa6MfCl89LjkkemTnQPF"
+      },
+      {
+        "collaborative": false,
+        "description": "no nf",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/7o1fxQRFqbOztAgVliEGys"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7o1fxQRFqbOztAgVliEGys",
+        "id": "7o1fxQRFqbOztAgVliEGys",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb68199ec1c221b5b26e5ee5c7",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Sculscul",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/94q1hff06cvcdyidevx17vls0"
+          },
+          "href": "https://api.spotify.com/v1/users/94q1hff06cvcdyidevx17vls0",
+          "id": "94q1hff06cvcdyidevx17vls0",
+          "type": "user",
+          "uri": "spotify:user:94q1hff06cvcdyidevx17vls0"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDgxLDZjNTkwMTIxMzRhNDYzNGFmY2Q0NmFhYTgyOTg4YWU3M2M4MmFkYTM=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/7o1fxQRFqbOztAgVliEGys/tracks",
+          "total": 307
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7o1fxQRFqbOztAgVliEGys"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/60mJLiwyok6bKUyTBf8sL9"
+        },
+        "href": "https://api.spotify.com/v1/playlists/60mJLiwyok6bKUyTBf8sL9",
+        "id": "60mJLiwyok6bKUyTBf8sL9",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb28d47b065d717ca475a54bc4",
+            "width": null
+          }
+        ],
+        "name": "When your liked songs aren’t good enough ",
+        "owner": {
+          "display_name": "Parker Barr",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/xvf247y0k3xuyd38pi9xcz4xe"
+          },
+          "href": "https://api.spotify.com/v1/users/xvf247y0k3xuyd38pi9xcz4xe",
+          "id": "xvf247y0k3xuyd38pi9xcz4xe",
+          "type": "user",
+          "uri": "spotify:user:xvf247y0k3xuyd38pi9xcz4xe"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDA3LDM3MjdiNTNiYzM5MTgwNGVlMDNhMGIwNDk4MzdjNWMwNzJlNGVjY2M=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/60mJLiwyok6bKUyTBf8sL9/tracks",
+          "total": 276
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:60mJLiwyok6bKUyTBf8sL9"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0dkn9Sg7ZAEMSVqNvdicpv"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0dkn9Sg7ZAEMSVqNvdicpv",
+        "id": "0dkn9Sg7ZAEMSVqNvdicpv",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb8ac36820276b95f81f6f189c",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "loganmichaud",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/lmsports27"
+          },
+          "href": "https://api.spotify.com/v1/users/lmsports27",
+          "id": "lmsports27",
+          "type": "user",
+          "uri": "spotify:user:lmsports27"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NjMzLDg4ZmNjZGQ4MDE2OTY1ZDQ5YTMxMTk4NGZhOGViZGViYzAzNzJiYzQ=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0dkn9Sg7ZAEMSVqNvdicpv/tracks",
+          "total": 627
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0dkn9Sg7ZAEMSVqNvdicpv"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4T5jQPlSzHMU3Z640wxFlH"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4T5jQPlSzHMU3Z640wxFlH",
+        "id": "4T5jQPlSzHMU3Z640wxFlH",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbfcf5c22d26cb98fb0c8040e0",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Hails ♡",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/r0vdlwqawztdtly0dt02vqcwk"
+          },
+          "href": "https://api.spotify.com/v1/users/r0vdlwqawztdtly0dt02vqcwk",
+          "id": "r0vdlwqawztdtly0dt02vqcwk",
+          "type": "user",
+          "uri": "spotify:user:r0vdlwqawztdtly0dt02vqcwk"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "ODA4LGI3MDMwNmZiNjI3YjBiOTFmM2JlYzAxYzdkMjFjYjE4Yzg3YzIxNDE=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4T5jQPlSzHMU3Z640wxFlH/tracks",
+          "total": 335
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4T5jQPlSzHMU3Z640wxFlH"
+      },
+      {
+        "collaborative": false,
+        "description": "Idk these people that liked my playlist. But this playlist is for my daughter not yours. ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/08h72Khx5zjvfpjgEqlJRv"
+        },
+        "href": "https://api.spotify.com/v1/playlists/08h72Khx5zjvfpjgEqlJRv",
+        "id": "08h72Khx5zjvfpjgEqlJRv",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb8d91c42af0ee0e65208e9860",
+            "width": null
+          }
+        ],
+        "name": "Songs to sing to my daughter ❤️",
+        "owner": {
+          "display_name": "andrew gille",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/awgg384"
+          },
+          "href": "https://api.spotify.com/v1/users/awgg384",
+          "id": "awgg384",
+          "type": "user",
+          "uri": "spotify:user:awgg384"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDIsN2Y5MzkyZjJiNTYxYmVjZWI0ZTJmNTdjNzkzMDI3YWU3YjVlYTU5YQ==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/08h72Khx5zjvfpjgEqlJRv/tracks",
+          "total": 32
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:08h72Khx5zjvfpjgEqlJRv"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3lRuT5giWoznQZiqz0fGNU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3lRuT5giWoznQZiqz0fGNU",
+        "id": "3lRuT5giWoznQZiqz0fGNU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b273381371cb8ce680d0dc324600ab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b2737a2acc716e7009d463ca0a8aab67616d0000b273e542fbcf1a83b7c726eb50a6",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b273381371cb8ce680d0dc324600ab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b2737a2acc716e7009d463ca0a8aab67616d0000b273e542fbcf1a83b7c726eb50a6",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b273381371cb8ce680d0dc324600ab67616d0000b2735140e9c2486249b280cb36fbab67616d0000b2737a2acc716e7009d463ca0a8aab67616d0000b273e542fbcf1a83b7c726eb50a6",
+            "width": 60
+          }
+        ],
+        "name": "90s Songs You Forgot You Liked",
+        "owner": {
+          "display_name": "JackSlack",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/163uc6k991862aekews60eswm"
+          },
+          "href": "https://api.spotify.com/v1/users/163uc6k991862aekews60eswm",
+          "id": "163uc6k991862aekews60eswm",
+          "type": "user",
+          "uri": "spotify:user:163uc6k991862aekews60eswm"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MzA2LDAyNmI1ZDUyMTU2ZTZmYTA1ZTQ1MDIyZTc4ZmI5ZWUzMmU5M2Y4MzY=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3lRuT5giWoznQZiqz0fGNU/tracks",
+          "total": 92
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3lRuT5giWoznQZiqz0fGNU"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4QuaKhopoQMbWeBBP1ItV0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4QuaKhopoQMbWeBBP1ItV0",
+        "id": "4QuaKhopoQMbWeBBP1ItV0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbee10b888e57226687ee7e4e1",
+            "width": null
+          }
+        ],
+        "name": "Liked Songsss",
+        "owner": {
+          "display_name": "Hannah",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/oqjmyplmcauk44wwsub7gxn6j"
+          },
+          "href": "https://api.spotify.com/v1/users/oqjmyplmcauk44wwsub7gxn6j",
+          "id": "oqjmyplmcauk44wwsub7gxn6j",
+          "type": "user",
+          "uri": "spotify:user:oqjmyplmcauk44wwsub7gxn6j"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTM0LDM2YjFmYTZlODcwOTk2ZDZiOGFmN2NhOTgzZjJhY2VhN2MzZTUzMWY=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4QuaKhopoQMbWeBBP1ItV0/tracks",
+          "total": 126
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4QuaKhopoQMbWeBBP1ItV0"
+      },
+      {
+        "collaborative": false,
+        "description": "(If u liked then follow) Old style Mario songs MOST LIKED PLAYLIST FROM US (please follow us and like)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1F4ysKeZIgmEivDIesn2fe"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1F4ysKeZIgmEivDIesn2fe",
+        "id": "1F4ysKeZIgmEivDIesn2fe",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb733e29ef71e4b7d7fa173053",
+            "width": null
+          }
+        ],
+        "name": "Super Mario Bros 1",
+        "owner": {
+          "display_name": "Monster hunter fan ultimate",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/5uc13l7w2ltirktp7zv3i2xf8"
+          },
+          "href": "https://api.spotify.com/v1/users/5uc13l7w2ltirktp7zv3i2xf8",
+          "id": "5uc13l7w2ltirktp7zv3i2xf8",
+          "type": "user",
+          "uri": "spotify:user:5uc13l7w2ltirktp7zv3i2xf8"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjksMGJhNzNiYzVlMDRkMDAwOTkyODBkYmVkNGE4ZTk5YzEwZTNmM2EyYQ==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1F4ysKeZIgmEivDIesn2fe/tracks",
+          "total": 18
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1F4ysKeZIgmEivDIesn2fe"
+      },
+      {
+        "collaborative": false,
+        "description": "8&#x2F;3&#x2F;2024",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/5zY0wS7weX1vFkKj3oHTwT"
+        },
+        "href": "https://api.spotify.com/v1/playlists/5zY0wS7weX1vFkKj3oHTwT",
+        "id": "5zY0wS7weX1vFkKj3oHTwT",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000bebb03672a400d7a8724f33e19c4",
+            "width": null
+          }
+        ],
+        "name": "My liked songs 6/11/2024",
+        "owner": {
+          "display_name": "evan",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/pgsniper"
+          },
+          "href": "https://api.spotify.com/v1/users/pgsniper",
+          "id": "pgsniper",
+          "type": "user",
+          "uri": "spotify:user:pgsniper"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTAsODUwNWNkNjA4N2M2NjM0MzFjNzQzNzJhNDE2OGJjODdmNTYzMDhhYg==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/5zY0wS7weX1vFkKj3oHTwT/tracks",
+          "total": 3780
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:5zY0wS7weX1vFkKj3oHTwT"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0cx3zdC4i8Lx6gjL3DRT7M"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0cx3zdC4i8Lx6gjL3DRT7M",
+        "id": "0cx3zdC4i8Lx6gjL3DRT7M",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb200a0127d6b631da0bb2d872",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Hi",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31fjb2fez73kiqewb7nia4meojbi"
+          },
+          "href": "https://api.spotify.com/v1/users/31fjb2fez73kiqewb7nia4meojbi",
+          "id": "31fjb2fez73kiqewb7nia4meojbi",
+          "type": "user",
+          "uri": "spotify:user:31fjb2fez73kiqewb7nia4meojbi"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDIwLGMzMDg3MWFlMDUzOTdlOWRmMWZmZTk3ZDcwNTg1ZmRiOWY3ZjM0ZGI=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0cx3zdC4i8Lx6gjL3DRT7M/tracks",
+          "total": 129
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0cx3zdC4i8Lx6gjL3DRT7M"
+      },
+      {
+        "collaborative": false,
+        "description": "“i never liked that song, but once i knew it was your favorite, i listened to in on repeat and it became one of the best songs i’ve ever heard” (03.10.2020)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/1k7X7ozD1Wcko6TVlyZCna"
+        },
+        "href": "https://api.spotify.com/v1/playlists/1k7X7ozD1Wcko6TVlyZCna",
+        "id": "1k7X7ozD1Wcko6TVlyZCna",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbe5a494e317384be5e1150a8a",
+            "width": null
+          }
+        ],
+        "name": "goth love songs 🦇",
+        "owner": {
+          "display_name": "c0mqn",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/1nd2ylr3p3icicav59tvochtd"
+          },
+          "href": "https://api.spotify.com/v1/users/1nd2ylr3p3icicav59tvochtd",
+          "id": "1nd2ylr3p3icicav59tvochtd",
+          "type": "user",
+          "uri": "spotify:user:1nd2ylr3p3icicav59tvochtd"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NTYsZGFjODRjMzk4YzE2ZmYwNjIwOGY0Nzc4Yjg5ZTNhYTk4NjlmOWNjZQ==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/1k7X7ozD1Wcko6TVlyZCna/tracks",
+          "total": 34
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:1k7X7ozD1Wcko6TVlyZCna"
+      },
+      {
+        "collaborative": false,
+        "description": "With Catbreath?, Hello Shark, Aubrey Key and more",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1E8M4wzgY18Qmz"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8M4wzgY18Qmz",
+        "id": "37i9dQZF1E8M4wzgY18Qmz",
+        "images": [
+          {
+            "height": null,
+            "url": "https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/track/6WL8D18x0CZ0osr6MAyTN6/en",
+            "width": null
+          }
+        ],
+        "name": "my liked songs Radio",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTcyMzc1MDk4NiwwMDAwMDAwMGM0N2MyOTU5ZDE5ODQxNzBlNDQ0NzVlNzhmMWE2MzVm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1E8M4wzgY18Qmz/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1E8M4wzgY18Qmz"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3q4UI9ynpLQHMFhLGSzlFU"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3q4UI9ynpLQHMFhLGSzlFU",
+        "id": "3q4UI9ynpLQHMFhLGSzlFU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b27318ff9ad4c7341ebc5e77e88eab67616d0000b2734676b161854d2215819f0d32ab67616d0000b273540fc1d083eac5bcff8dad21ab67616d0000b2739408342067e2ff50d69a3c98",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b27318ff9ad4c7341ebc5e77e88eab67616d0000b2734676b161854d2215819f0d32ab67616d0000b273540fc1d083eac5bcff8dad21ab67616d0000b2739408342067e2ff50d69a3c98",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b27318ff9ad4c7341ebc5e77e88eab67616d0000b2734676b161854d2215819f0d32ab67616d0000b273540fc1d083eac5bcff8dad21ab67616d0000b2739408342067e2ff50d69a3c98",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "jflamion1",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/jflamion1"
+          },
+          "href": "https://api.spotify.com/v1/users/jflamion1",
+          "id": "jflamion1",
+          "type": "user",
+          "uri": "spotify:user:jflamion1"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTA3LDk4YzZkYWM0YzZhNGRhNTg5ODYzYzJhOWRiOWIwN2RkMmRhMzk4MTY=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3q4UI9ynpLQHMFhLGSzlFU/tracks",
+          "total": 82
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3q4UI9ynpLQHMFhLGSzlFU"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0eeSx89GW4fyhbJdePVbLH"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0eeSx89GW4fyhbJdePVbLH",
+        "id": "0eeSx89GW4fyhbJdePVbLH",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2732a114c48c6fc7cabe0644d4eab67616d0000b27369d911b9991ca77bc60f7c81ab67616d0000b273de15af4cbf845a5f5118e7bbab67616d0000b273ff0bfa2844fc9db7361177bf",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2732a114c48c6fc7cabe0644d4eab67616d0000b27369d911b9991ca77bc60f7c81ab67616d0000b273de15af4cbf845a5f5118e7bbab67616d0000b273ff0bfa2844fc9db7361177bf",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2732a114c48c6fc7cabe0644d4eab67616d0000b27369d911b9991ca77bc60f7c81ab67616d0000b273de15af4cbf845a5f5118e7bbab67616d0000b273ff0bfa2844fc9db7361177bf",
+            "width": 60
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "booksandbooks1",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/booksandbooks1"
+          },
+          "href": "https://api.spotify.com/v1/users/booksandbooks1",
+          "id": "booksandbooks1",
+          "type": "user",
+          "uri": "spotify:user:booksandbooks1"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTMyLGM5NDQxZjhjNmViYjEzMmZmN2QxN2MwNWMyYmY5NDI1MThkODU4MTA=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0eeSx89GW4fyhbJdePVbLH/tracks",
+          "total": 1139
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0eeSx89GW4fyhbJdePVbLH"
+      },
+      {
+        "collaborative": false,
+        "description": "Modern mix of brilliant songs, I hope you enjoy!!  Thank you to all who have liked this playlist :)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/0IgseUQjQLrvpVrukamjZl"
+        },
+        "href": "https://api.spotify.com/v1/playlists/0IgseUQjQLrvpVrukamjZl",
+        "id": "0IgseUQjQLrvpVrukamjZl",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc52570ca707f9ab621ce8b0d",
+            "width": null
+          }
+        ],
+        "name": "Best Modern Piano Songs Playlist",
+        "owner": {
+          "display_name": "jimmuller402",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/jimmuller402"
+          },
+          "href": "https://api.spotify.com/v1/users/jimmuller402",
+          "id": "jimmuller402",
+          "type": "user",
+          "uri": "spotify:user:jimmuller402"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTA3LGE5MjJhODU4MDBkYzk4OGIxNDQwMzUyYTEyOGM2Y2I4OThlMjMyMDk=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/0IgseUQjQLrvpVrukamjZl/tracks",
+          "total": 71
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:0IgseUQjQLrvpVrukamjZl"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3kDCjAI5FcJg1QZh3nYPc8"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3kDCjAI5FcJg1QZh3nYPc8",
+        "id": "3kDCjAI5FcJg1QZh3nYPc8",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb9ff4957a41b16c78c2d8ce29",
+            "width": null
+          }
+        ],
+        "name": "liked songs pt.2",
+        "owner": {
+          "display_name": "Haley",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/bz68lsa8tyxtvs5hi6mnhgpp1"
+          },
+          "href": "https://api.spotify.com/v1/users/bz68lsa8tyxtvs5hi6mnhgpp1",
+          "id": "bz68lsa8tyxtvs5hi6mnhgpp1",
+          "type": "user",
+          "uri": "spotify:user:bz68lsa8tyxtvs5hi6mnhgpp1"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NzQxLGMwYjYyOTliOGJhOWZlMzFjYzI2NjI5M2FjNjg4OGI3NGNmNWFhZTA=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3kDCjAI5FcJg1QZh3nYPc8/tracks",
+          "total": 2247
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3kDCjAI5FcJg1QZh3nYPc8"
+      },
+      {
+        "collaborative": false,
+        "description": "this playlist is ordered by my most recent new finds&#x2F;repeated songs on top. I usually add about 10&#x2F;week, pairing together similar vibes that I&#x27;m feeling at the time. i hope you enjoy 💖",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4uDCREY5pvtHMgb3OKq7BN"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4uDCREY5pvtHMgb3OKq7BN",
+        "id": "4uDCREY5pvtHMgb3OKq7BN",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b27305005dc483e9f8a73ccc6d3dab67616d0000b27317398d6fb78a9b6be1d61fdcab67616d0000b2733541c6577c1e4b7d58e8b588ab67616d0000b273fc342f95f117d48dbdde9735",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b27305005dc483e9f8a73ccc6d3dab67616d0000b27317398d6fb78a9b6be1d61fdcab67616d0000b2733541c6577c1e4b7d58e8b588ab67616d0000b273fc342f95f117d48dbdde9735",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b27305005dc483e9f8a73ccc6d3dab67616d0000b27317398d6fb78a9b6be1d61fdcab67616d0000b2733541c6577c1e4b7d58e8b588ab67616d0000b273fc342f95f117d48dbdde9735",
+            "width": 60
+          }
+        ],
+        "name": "Julienne By’s Liked Songs",
+        "owner": {
+          "display_name": "Julienne By",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/julienneby"
+          },
+          "href": "https://api.spotify.com/v1/users/julienneby",
+          "id": "julienneby",
+          "type": "user",
+          "uri": "spotify:user:julienneby"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjY1Miw1NzE5ZjI5MWYwYTJkYzI1MmRjZmJmZDIxN2UyYWI2OGI2MzYxOTE5",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4uDCREY5pvtHMgb3OKq7BN/tracks",
+          "total": 1463
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4uDCREY5pvtHMgb3OKq7BN"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/46mA9CUYlC7GEjVKpkwmVm"
+        },
+        "href": "https://api.spotify.com/v1/playlists/46mA9CUYlC7GEjVKpkwmVm",
+        "id": "46mA9CUYlC7GEjVKpkwmVm",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb6c37c564d633eb62b536ee27",
+            "width": null
+          }
+        ],
+        "name": "Liked songs",
+        "owner": {
+          "display_name": "$$$-Joey-scooters",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/312u2o7l4zkwa2bfc6llg3i7y4mm"
+          },
+          "href": "https://api.spotify.com/v1/users/312u2o7l4zkwa2bfc6llg3i7y4mm",
+          "id": "312u2o7l4zkwa2bfc6llg3i7y4mm",
+          "type": "user",
+          "uri": "spotify:user:312u2o7l4zkwa2bfc6llg3i7y4mm"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "ODcsMjM2YzkzOTcyMjU4M2I3MjM4ODgzMDY5Y2I3ZWI2YWVkNjM0YTNmMw==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/46mA9CUYlC7GEjVKpkwmVm/tracks",
+          "total": 35
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:46mA9CUYlC7GEjVKpkwmVm"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3YXIlELZTca7IMrVgRdNyc"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3YXIlELZTca7IMrVgRdNyc",
+        "id": "3YXIlELZTca7IMrVgRdNyc",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb2fc526bd6c74f4e3ddcfb005",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "lowly",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31xcyowzplk5gi62rg3kvyncs5ee"
+          },
+          "href": "https://api.spotify.com/v1/users/31xcyowzplk5gi62rg3kvyncs5ee",
+          "id": "31xcyowzplk5gi62rg3kvyncs5ee",
+          "type": "user",
+          "uri": "spotify:user:31xcyowzplk5gi62rg3kvyncs5ee"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTE2LDcyYTVlMTVhNGFiZDRkNzFjZGFjYjFiNzBlMjg4ZjM4Y2MxZTk2ZTE=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3YXIlELZTca7IMrVgRdNyc/tracks",
+          "total": 107
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3YXIlELZTca7IMrVgRdNyc"
+      },
+      {
+        "collaborative": false,
+        "description": "playlist currently followed by NLE choppa and lil man j. much love to them and all the other fans that liked this playlist 💫",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3XjPEciRSKCjS4T0ZGQkwp"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3XjPEciRSKCjS4T0ZGQkwp",
+        "id": "3XjPEciRSKCjS4T0ZGQkwp",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc047a5258d42af4ff157226f",
+            "width": null
+          }
+        ],
+        "name": "Hard Bass Car Songs",
+        "owner": {
+          "display_name": "Cesar Valdivia Ulloa",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31cth5b5kfssc5kui75duge3ekc4"
+          },
+          "href": "https://api.spotify.com/v1/users/31cth5b5kfssc5kui75duge3ekc4",
+          "id": "31cth5b5kfssc5kui75duge3ekc4",
+          "type": "user",
+          "uri": "spotify:user:31cth5b5kfssc5kui75duge3ekc4"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "NDM0LDhjY2M0OTQzNGUxZTIwNzc2OTMxZGQ3Mjg2ZDI5ZmI4MGVlZWJjNjc=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3XjPEciRSKCjS4T0ZGQkwp/tracks",
+          "total": 389
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3XjPEciRSKCjS4T0ZGQkwp"
+      },
+      {
+        "collaborative": false,
+        "description": "Thanks to everyone who liked the playlist. I&#x27;m sure you have some other Buckethead songs you would put in a playlist like this, but for now this is what touches me the most. Love to you all :)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/7FqeZCORbsFiYsNWuEFxDO"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7FqeZCORbsFiYsNWuEFxDO",
+        "id": "7FqeZCORbsFiYsNWuEFxDO",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbb382422665c21e831220d884",
+            "width": null
+          }
+        ],
+        "name": "Buckethead (Relaxing Songs list)",
+        "owner": {
+          "display_name": "Kevin Alarcón",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/9dragofox6"
+          },
+          "href": "https://api.spotify.com/v1/users/9dragofox6",
+          "id": "9dragofox6",
+          "type": "user",
+          "uri": "spotify:user:9dragofox6"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "OTgsZTJkNDc2MGYzNDk3MWVhMmZiYWIyMTVjOTBmZDk0YjFmMzcwY2ZkZA==",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/7FqeZCORbsFiYsNWuEFxDO/tracks",
+          "total": 85
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7FqeZCORbsFiYsNWuEFxDO"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3bzsy2bgjtvnA8C5Icn8Gv"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3bzsy2bgjtvnA8C5Icn8Gv",
+        "id": "3bzsy2bgjtvnA8C5Icn8Gv",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb054ce5377183d391d3d7e14d",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Ryan",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/8yc9nvkia5t86h908rpuufqi5"
+          },
+          "href": "https://api.spotify.com/v1/users/8yc9nvkia5t86h908rpuufqi5",
+          "id": "8yc9nvkia5t86h908rpuufqi5",
+          "type": "user",
+          "uri": "spotify:user:8yc9nvkia5t86h908rpuufqi5"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTYzMyw4NzEzYTc5NjhiNmE3NjNhOWQyMDhlMDQ4Njk3ZTc5ODRiNzI0ODBk",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3bzsy2bgjtvnA8C5Icn8Gv/tracks",
+          "total": 1811
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3bzsy2bgjtvnA8C5Icn8Gv"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/6YxUayuIpevPIO3DJXgezq"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6YxUayuIpevPIO3DJXgezq",
+        "id": "6YxUayuIpevPIO3DJXgezq",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbeebcc9d81964e549bd1a80ba",
+            "width": null
+          }
+        ],
+        "name": "Liked Songs",
+        "owner": {
+          "display_name": "Richard Blankennagel",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31nk37a7rtfa4crqytcaa2dlfld4"
+          },
+          "href": "https://api.spotify.com/v1/users/31nk37a7rtfa4crqytcaa2dlfld4",
+          "id": "31nk37a7rtfa4crqytcaa2dlfld4",
+          "type": "user",
+          "uri": "spotify:user:31nk37a7rtfa4crqytcaa2dlfld4"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY3LDhmZjgzNjY3MzcxMDY5OGM3NTYzY2QwMTAzNmVmMDNiNGU2MTQ2OTc=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/6YxUayuIpevPIO3DJXgezq/tracks",
+          "total": 797
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6YxUayuIpevPIO3DJXgezq"
+      },
+      {
+        "collaborative": false,
+        "description": "Songs from the Indie game &quot;Night Runners&quot; plus some I liked. (original playlists by: welcomebacktomusic, Luneth)",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/7yTX6TUZunfGKAyC6c3tm0"
+        },
+        "href": "https://api.spotify.com/v1/playlists/7yTX6TUZunfGKAyC6c3tm0",
+        "id": "7yTX6TUZunfGKAyC6c3tm0",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb6089a8f35d991361bb7ba613",
+            "width": null
+          }
+        ],
+        "name": "NightRunners  +",
+        "owner": {
+          "display_name": "Joaopalma.esteves",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/jky8ar18seezrboul42b4at7t"
+          },
+          "href": "https://api.spotify.com/v1/users/jky8ar18seezrboul42b4at7t",
+          "id": "jky8ar18seezrboul42b4at7t",
+          "type": "user",
+          "uri": "spotify:user:jky8ar18seezrboul42b4at7t"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTAyLGIyMDM1MzM2NDJiYjJkYThkYWMwYWRlYTQ0ZDIxYTdhN2M1NTY2OTU=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/7yTX6TUZunfGKAyC6c3tm0/tracks",
+          "total": 54
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:7yTX6TUZunfGKAyC6c3tm0"
+      },
+      {
+        "collaborative": false,
+        "description": "sad songs to cry all night long",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/2vwyb2Bc9OVZ6N95WXhLjH"
+        },
+        "href": "https://api.spotify.com/v1/playlists/2vwyb2Bc9OVZ6N95WXhLjH",
+        "id": "2vwyb2Bc9OVZ6N95WXhLjH",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebbc2d76195b37925ed81488b08",
+            "width": null
+          }
+        ],
+        "name": "and you never knew how much i really liked you bc i never even told you",
+        "owner": {
+          "display_name": "sofi",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/pitufa.je"
+          },
+          "href": "https://api.spotify.com/v1/users/pitufa.je",
+          "id": "pitufa.je",
+          "type": "user",
+          "uri": "spotify:user:pitufa.je"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MjMzLGVjOWFhNTBlMTZmOTM4ZDVkNmUzNmQ5ZDVhNDYyZTcxNGRhMGFiNGE=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/2vwyb2Bc9OVZ6N95WXhLjH/tracks",
+          "total": 127
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:2vwyb2Bc9OVZ6N95WXhLjH"
+      },
+      {
+        "collaborative": false,
+        "description": "some bug changed the title and i had to change it. not that bad tho.. every phonk listener must have liked one of these songs. Cover: Nissan Skyline R34 GTR.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/4mguLye27cWBJHUpELrYH3"
+        },
+        "href": "https://api.spotify.com/v1/playlists/4mguLye27cWBJHUpELrYH3",
+        "id": "4mguLye27cWBJHUpELrYH3",
+        "images": [
+          {
+            "height": null,
+            "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000bebb975100b910bff60f388f2c0d",
+            "width": null
+          }
+        ],
+        "name": "OG phonk🔥🔪💀 (2021 + 2022)",
+        "owner": {
+          "display_name": "!              Axe",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31xbrleyks2dvhi6wwt3p3ewv3pe"
+          },
+          "href": "https://api.spotify.com/v1/users/31xbrleyks2dvhi6wwt3p3ewv3pe",
+          "id": "31xbrleyks2dvhi6wwt3p3ewv3pe",
+          "type": "user",
+          "uri": "spotify:user:31xbrleyks2dvhi6wwt3p3ewv3pe"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTQxLGFkZjA3MGZlYTdkYTE2MjVkZDRjZWMyNzdiNjM4YThkZWUwNzJmNTk=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/4mguLye27cWBJHUpELrYH3/tracks",
+          "total": 73
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:4mguLye27cWBJHUpELrYH3"
+      },
+      {
+        "collaborative": false,
+        "description": "",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/3gi3ePjpUBNz0HCkV9qEPV"
+        },
+        "href": "https://api.spotify.com/v1/playlists/3gi3ePjpUBNz0HCkV9qEPV",
+        "id": "3gi3ePjpUBNz0HCkV9qEPV",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2732ebecaff8dd44d471dc0bdbdab67616d0000b273a8b9f97b9ea065b9a857e93fab67616d0000b273cd3978ebe35d93a07249b97fab67616d0000b273da2c9e212d101ae2f9eefaa1",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2732ebecaff8dd44d471dc0bdbdab67616d0000b273a8b9f97b9ea065b9a857e93fab67616d0000b273cd3978ebe35d93a07249b97fab67616d0000b273da2c9e212d101ae2f9eefaa1",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2732ebecaff8dd44d471dc0bdbdab67616d0000b273a8b9f97b9ea065b9a857e93fab67616d0000b273cd3978ebe35d93a07249b97fab67616d0000b273da2c9e212d101ae2f9eefaa1",
+            "width": 60
+          }
+        ],
+        "name": "liked songs pt.2",
+        "owner": {
+          "display_name": "Satija <3",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31ianxjx257ao7gindq7fl2legte"
+          },
+          "href": "https://api.spotify.com/v1/users/31ianxjx257ao7gindq7fl2legte",
+          "id": "31ianxjx257ao7gindq7fl2legte",
+          "type": "user",
+          "uri": "spotify:user:31ianxjx257ao7gindq7fl2legte"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTUwLDAyNTZiZWZjZjEzNmY5YzUwODFkNTdhNTA5MjcwMGQ5NjdiYjk1OTU=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/3gi3ePjpUBNz0HCkV9qEPV/tracks",
+          "total": 146
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:3gi3ePjpUBNz0HCkV9qEPV"
+      },
+      {
+        "collaborative": false,
+        "description": "All the most liked Kannada melody songs released between 2000 and 2024",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/6pECpDEcLeymUolYVGSxy6"
+        },
+        "href": "https://api.spotify.com/v1/playlists/6pECpDEcLeymUolYVGSxy6",
+        "id": "6pECpDEcLeymUolYVGSxy6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://mosaic.scdn.co/640/ab67616d0000b2733d7a7b404aaa2bf5259f0834ab67616d0000b27357dbe73bb2d8c9cb6fbbdc57ab67616d0000b27386b770e402d5c19c3ef24e3fab67616d0000b273fc4e0e7cfa5b8549d8bb2d10",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://mosaic.scdn.co/300/ab67616d0000b2733d7a7b404aaa2bf5259f0834ab67616d0000b27357dbe73bb2d8c9cb6fbbdc57ab67616d0000b27386b770e402d5c19c3ef24e3fab67616d0000b273fc4e0e7cfa5b8549d8bb2d10",
+            "width": 300
+          },
+          {
+            "height": 60,
+            "url": "https://mosaic.scdn.co/60/ab67616d0000b2733d7a7b404aaa2bf5259f0834ab67616d0000b27357dbe73bb2d8c9cb6fbbdc57ab67616d0000b27386b770e402d5c19c3ef24e3fab67616d0000b273fc4e0e7cfa5b8549d8bb2d10",
+            "width": 60
+          }
+        ],
+        "name": "Kannada melodies 2000-2024",
+        "owner": {
+          "display_name": "Rachana Darshan",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/31lvwr2iq5wh5zaivktxetw3cpaa"
+          },
+          "href": "https://api.spotify.com/v1/users/31lvwr2iq5wh5zaivktxetw3cpaa",
+          "id": "31lvwr2iq5wh5zaivktxetw3cpaa",
+          "type": "user",
+          "uri": "spotify:user:31lvwr2iq5wh5zaivktxetw3cpaa"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY0LGM1Yzc3MTIyYjJmMjZjMWVlMDBkYTgxZTYzNTE0NjcwMGNjNTg2Nzc=",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/6pECpDEcLeymUolYVGSxy6/tracks",
+          "total": 135
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:6pECpDEcLeymUolYVGSxy6"
+      }
+    ],
+    "limit": 50,
+    "next": "https://api.spotify.com/v1/search?query=liked+songs&type=playlist&market=US&locale=en-US%2Cen%3Bq%3D0.5&offset=50&limit=50",
+    "offset": 0,
+    "previous": null,
+    "total": 1000
+  }
+}
