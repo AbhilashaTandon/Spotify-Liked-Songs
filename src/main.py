@@ -25,11 +25,11 @@ def main():
     with open('secrets.json', mode='r') as secrets_file:
         secrets = json.load(secrets_file)
 
-    api_token = request_access_token(secrets)
+    api_token = 'BQAYdlExi3pir-woPu6Q_ZNilQSfE1ls2xVTI3dIC79NkRbuxr-MW6UWZSqbjjUbtv0OzW2uzTHgCzI9ERSXerzBWd6c35_wm9JrtKwOINCjpj10DgA'
 
     print(api_token)
 
-    with open('data/output.json', mode='w+') as output_file:
+    with open('data/output.json', mode='r') as output_file:
         output = output_file.read()
         # removes comma and whitespace at end of file
         # by wrapping file in curly braces we make it a single json obj
@@ -40,10 +40,6 @@ def main():
         with open('data/playlist_ids.txt', mode='r') as input_file:
             ids = set(input_file.read().splitlines())
 
-            print(len(ids))
-
-            return
-
             num_playlists = len(ids)
 
             # remove playlists we've already extracted
@@ -51,28 +47,30 @@ def main():
 
             offset = len(past_ids)  # how many we've done so far
 
-            with alive_bar(num_playlists) as bar:
-                bar(offset, skipped=True)
-                for idx, playlist_id in enumerate(ids):
-                    api_req = 'https://api.spotify.com/v1/playlists/' + \
-                        playlist_id + '/tracks?limit=50&offset=0'
-                    try:
-                        tracks = extract_tracks(api_req, api_token)
-                        output_json[playlist_id] = tracks
-                        bar()
-                    except FatalError as e:
-                        output_file.write(json.dumps(output_json))
-                        with open('log.txt', mode='a') as log_file:
-                            log_file.write(
-                                f"{e.message}. stopped at playlist {idx + offset}\n")
+            to_be_extracted = len(ids)
 
-                        break
-                    except NonFatalError as e:
-                        with open('log.txt', mode='a') as log_file:
-                            log_file.write(
-                                f"playlist {idx + offset} {e}\n")
-                        bar()
-                        continue
+    with open('data/output.json', mode='w') as output_file:
+        with alive_bar(offset + to_be_extracted) as bar:
+            bar(offset, skipped=True)
+            for idx, playlist_id in enumerate(ids):
+                api_req = 'https://api.spotify.com/v1/playlists/' + \
+                    playlist_id + '/tracks?limit=50&offset=0'
+                try:
+                    tracks = extract_tracks(api_req, api_token)
+                    output_json[playlist_id] = tracks
+                    bar()
+                except FatalError as e:
+                    output_file.write(json.dumps(output_json))
+                    with open('log.txt', mode='a') as log_file:
+                        log_file.write(
+                            f"{e.message}. stopped at playlist {idx + offset}\n")
+                    return
+                except NonFatalError as e:
+                    with open('log.txt', mode='a') as log_file:
+                        log_file.write(
+                            f"playlist {idx + offset} {e}\n")
+                    bar()
+                    continue
 
         output_file.write(json.dumps(output_json))
 

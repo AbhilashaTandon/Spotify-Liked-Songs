@@ -43,18 +43,21 @@ def get_most_similar(artist, cosine_matrix, artist_to_idx, unique_artists, n):
 def main():
     with open('data/output.json', mode='r') as data:
         json_obj = json.load(data)
-    with open('output.json', mode='r') as data:
-        json_obj = json_obj | json.load(data)  # combines dictionaries
-    with open("data/output.json", mode='w') as output:
-        json.dump(json_obj, output)
 
-        artist_occurences = Counter()
         # how many times an artist occurs in all songs in data
 
         num_playlists = len(json_obj)
 
+        print(f'{num_playlists} unique playlists')
+
+        artist_occurences_per_playlist = Counter()
+        # how many unique playlists an artist occurs in
+
         for playlist_id in json_obj:
             playlist = json_obj[playlist_id]
+
+            current_playlist_artists = set()
+            # all unique artists that occur in this playlist
 
             for song in playlist:
                 if (song['id'] is None):
@@ -64,14 +67,16 @@ def main():
                            if not (artist is None)]
 
                 if (len(artists) > 0):
-                    artist_occurences.update([artists[0]])
+                    current_playlist_artists.add(artists[0])
 
-        unique_artists = list(artist_occurences.keys())
+            artist_occurences_per_playlist.update(current_playlist_artists)
 
         unique_artists = [
-            artist for artist in unique_artists if artist_occurences[artist] > 10]
+            artist for artist, value in artist_occurences_per_playlist.items() if value > 4]
 
         num_artists = len(unique_artists)
+
+        print(f'{num_artists} unique artists')
 
         artist_to_idx = {artist: idx for idx,
                          artist in enumerate(unique_artists)}
@@ -112,7 +117,7 @@ def main():
 
         print(tf_idf.shape)
 
-        reducer = umap.UMAP(n_neighbors=30, n_components=2,
+        reducer = umap.UMAP(n_neighbors=50, n_components=2,
                             n_jobs=-1, metric='cosine', min_dist=0)
         # 30 is a good value for this
 
