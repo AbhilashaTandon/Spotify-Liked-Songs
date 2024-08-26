@@ -25,7 +25,7 @@ def main():
     with open('secrets.json', mode='r') as secrets_file:
         secrets = json.load(secrets_file)
 
-    api_token = 'BQAYdlExi3pir-woPu6Q_ZNilQSfE1ls2xVTI3dIC79NkRbuxr-MW6UWZSqbjjUbtv0OzW2uzTHgCzI9ERSXerzBWd6c35_wm9JrtKwOINCjpj10DgA'
+    api_token = request_access_token(secrets)
 
     print(api_token)
 
