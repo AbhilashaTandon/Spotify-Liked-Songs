@@ -12,3 +12,4 @@ data/output1.json
 data/output2.json
 src/__pycache__/api_requests.cpython-311.pyc
 src/__pycache__/extract.cpython-311.pyc
+src/test.py

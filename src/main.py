@@ -1,20 +1,15 @@
 import json
-from api_requests import FatalError, NonFatalError
+from api_requests import FatalError, NonFatalError, request_access_token
 from extract import extract_playlists, extract_tracks
 from alive_progress import alive_bar
-from requests.exceptions import HTTPError
 
-with open('secrets.json', mode='r') as secrets_file:
-    secrets = json.load(secrets_file)
-
-
-past_search_requests: list[str] = [
-    'https://api.spotify.com/v1/search?q=liked+songs&type=playlist&market=US&limit=50&offset=0',
-    'https://api.spotify.com/v1/search?q=favorite+songs&type=playlist&market=US&limit=50&offset=0',
-    'https://api.spotify.com/v1/search?q=best+songs&type=playlist&market=US&limit=50&offset=0',
-    'https://api.spotify.com/v1/search?q=my+songs&type=playlist&market=US&limit=50&offset=0',
-    'https://api.spotify.com/v1/search?q=my+favorite+playlist&type=playlist&market=US&limit=50&offset=0',
-    'https://api.spotify.com/v1/search?q=liked+songs+playlist&type=playlist&market=US&limit=50&offset=0']
+# past_search_requests: list[str] = [
+#     'https://api.spotify.com/v1/search?q=liked+songs&type=playlist&market=US&limit=50&offset=0',
+#     'https://api.spotify.com/v1/search?q=favorite+songs&type=playlist&market=US&limit=50&offset=0',
+#     'https://api.spotify.com/v1/search?q=best+songs&type=playlist&market=US&limit=50&offset=0',
+#     'https://api.spotify.com/v1/search?q=my+songs&type=playlist&market=US&limit=50&offset=0',
+#     'https://api.spotify.com/v1/search?q=my+favorite+playlist&type=playlist&market=US&limit=50&offset=0',
+#     'https://api.spotify.com/v1/search?q=liked+songs+playlist&type=playlist&market=US&limit=50&offset=0']
 
 search_requests: list[str] = []
 
@@ -27,29 +22,50 @@ def get_playlist_ids(api_token: str):
 
 def main():
 
-    api_token = 'BQBYkN7oJaOrhZ5jPRgYW5Ru1ZMzw7T8QWOOvBBqDRxO_ESVXiqPoJ7uOl8mBCBouauh1KXK90l0lJqZxcXUY0DcUwL51U-NBgtmoNBQlSnO-7MnuJU'
+    with open('secrets.json', mode='r') as secrets_file:
+        secrets = json.load(secrets_file)
+
+    api_token = request_access_token(secrets)
 
     print(api_token)
 
-    max_playlists = 6000
+    with open('data/output.json', mode='w+') as output_file:
+        output = output_file.read()
+        # removes comma and whitespace at end of file
+        # by wrapping file in curly braces we make it a single json obj
 
-    offset = 4793
+        output_json = json.loads(output)
+        past_ids = set(output_json.keys())
 
-    with open('data/output.json', mode='w') as output_file:
         with open('data/playlist_ids.txt', mode='r') as input_file:
-            ids = input_file.read().splitlines()
+            ids = set(input_file.read().splitlines())
 
-            num_ids = len(ids)
+            print(len(ids))
 
-            with alive_bar(min(num_ids, max_playlists)) as bar:
+            return
+
+            num_playlists = len(ids)
+
+            # remove playlists we've already extracted
+            ids = list(ids - past_ids)
+
+            offset = len(past_ids)  # how many we've done so far
+
+            with alive_bar(num_playlists) as bar:
                 bar(offset, skipped=True)
-                for idx, playlist_id in enumerate(ids[offset:max_playlists]):
+                for idx, playlist_id in enumerate(ids):
                     api_req = 'https://api.spotify.com/v1/playlists/' + \
                         playlist_id + '/tracks?limit=50&offset=0'
                     try:
                         tracks = extract_tracks(api_req, api_token)
+                        output_json[playlist_id] = tracks
+                        bar()
                     except FatalError as e:
-                        print(f"{e.message}. stopped at playlist {idx + offset}")
+                        output_file.write(json.dumps(output_json))
+                        with open('log.txt', mode='a') as log_file:
+                            log_file.write(
+                                f"{e.message}. stopped at playlist {idx + offset}\n")
+
                         break
                     except NonFatalError as e:
                         with open('log.txt', mode='a') as log_file:
@@ -58,10 +74,7 @@ def main():
                         bar()
                         continue
 
-                    output_file.write(
-                        f'{playlist_id}: {json.dumps(tracks)},\n')
-
-                    bar()
+        output_file.write(json.dumps(output_json))
 
 
 if __name__ == '__main__':

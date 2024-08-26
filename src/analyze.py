@@ -43,6 +43,10 @@ def get_most_similar(artist, cosine_matrix, artist_to_idx, unique_artists, n):
 def main():
     with open('data/output.json', mode='r') as data:
         json_obj = json.load(data)
+    with open('output.json', mode='r') as data:
+        json_obj = json_obj | json.load(data)  # combines dictionaries
+    with open("data/output.json", mode='w') as output:
+        json.dump(json_obj, output)
 
         artist_occurences = Counter()
         # how many times an artist occurs in all songs in data
