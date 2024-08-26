@@ -1,3 +1,14 @@
-output.txt
 secrets.json
-test.py
+data/output - Copy (2).json
+data/output - Copy.json
+data/output.json
+data/playlist_ids.txt
+data/test_response.json
+src/reformat.py
+output - Copy.json
+output.json
+log.txt
+data/output1.json
+data/output2.json
+src/__pycache__/api_requests.cpython-311.pyc
+src/__pycache__/extract.cpython-311.pyc
