@@ -1,8 +1,11 @@
+import pandas as pd
 import json
+from hdbscan import HDBSCAN
 import umap
 
 import numpy as np
-import plotly.graph_objects as go
+import plotly.express as px
+
 from collections import Counter
 
 # i'm going to assume that trying to do unsupervised learning does not violate
@@ -14,11 +17,9 @@ from collections import Counter
 '''
 
 
-def show_plot(x_data, y_data, labels):
-    fig = go.Figure(data=go.Scatter(x=x_data,
-                                    y=y_data,
-                                    mode='markers',
-                                    text=labels))  # hover text goes here
+def show_plot(data):
+
+    fig = px.scatter(data, x='x', y='y', color='labels', hover_data='names')
 
     fig.update_layout(title='Spotify Artists')
     fig.show()
@@ -71,8 +72,8 @@ def main():
 
             artist_occurences_per_playlist.update(current_playlist_artists)
 
-        unique_artists = [
-            artist for artist, value in artist_occurences_per_playlist.items() if value > 4]
+        unique_artists = [x[0]
+                          for x in artist_occurences_per_playlist.most_common(5000)]
 
         num_artists = len(unique_artists)
 
@@ -117,6 +118,24 @@ def main():
 
         print(tf_idf.shape)
 
+        from sklearn.cluster import KMeans
+        from sklearn.metrics import silhouette_score
+
+        # hdbscanner = HDBSCAN(min_cluster_size=10, metric="precomputed")
+        umap_for_clustering = umap.UMAP(n_neighbors=40, n_components=10,
+                                        n_jobs=-1, metric='cosine', min_dist=0).fit_transform(tf_idf.T)
+        # labels = hdbscanner.fit_predict(umap_for_hdbscan.T)
+        # for num_clusters in range(2, 12):
+        #     for data, type_ in zip([tf_idf.T, cosine_sim, umap_for_clustering], ["tf_idf", "cosine_sim", "umap"]):
+        #         labels = KMeans(n_clusters=10).fit_predict(data)
+
+        #         print(type_, num_clusters, labels.shape,
+        #               silhouette_score(data, labels), sep='\t')
+
+        labels = list(
+            map(str, list(KMeans(n_clusters=8).fit_predict(umap_for_clustering))))
+
+        # print(f'{np.max(labels) - np.min(labels)} labels found')
         reducer = umap.UMAP(n_neighbors=50, n_components=2,
                             n_jobs=-1, metric='cosine', min_dist=0)
         # 30 is a good value for this
@@ -125,7 +144,10 @@ def main():
 
         print(umap_embedded.shape)
 
-        show_plot(umap_embedded[:, 0], umap_embedded[:, 1], unique_artists)
+        df = pd.DataFrame(
+            {'x': umap_embedded[:, 0], 'y': umap_embedded[:, 1], 'names': unique_artists, 'labels': labels})
+
+        show_plot(df)
 
 
 if __name__ == "__main__":
