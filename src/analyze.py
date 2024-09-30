@@ -97,17 +97,14 @@ class PlaylistData:
         return term_frequencies * idf
 
     def get_cos_sim(self):
-
-        return cosine_similarity(self.get_tf_idf().T)
+        self.cos_sim = cosine_similarity(self.get_tf_idf().T)
 
     def get_most_similar(self, artists, n):
 
-        cos_sim = self.get_cos_sim()
-
-        similarities = np.zeros_like(cos_sim[0])
+        similarities = np.zeros_like(self.cos_sim[0])
 
         for artist in artists:
-            similarities += cos_sim[self.artist_to_idx[artist]]
+            similarities += self.cos_sim[self.artist_to_idx[artist]]
 
         sim_artists = list(sorted(enumerate(similarities),
                                   key=lambda x: x[1], reverse=True))
@@ -144,9 +141,9 @@ def main():
 
         tf_idf = plist_data.get_tf_idf()
 
-        cosine_sim = plist_data.get_cos_sim()
+        plist_data.get_cos_sim()
 
-        artists = ["Queen"]
+        artists = ["Queen", "Modest Mouse"]
 
         print("| Most Similar Artists to " +
               ', '.join(artists) + " | Cosine Similarity |")
@@ -175,8 +172,8 @@ def main():
 
         # sorts genres from most to least popular
 
-        genres = ["Pop", "Hip Hop", "Indie", "Rock", "Alt",
-                  "Country", "Spanish", "K-Pop", "CCM", "South Asian"]
+        genres = {0: "Pop", 1: "Hip Hop", 2: "Indie", 3: "Rock", 4: "Alt",
+                  5: "Country", 6: "Spanish", 7: "K-Pop", 8: "CCM", 9: "South Asian"}
         # make sure to fix this manually each time you run the model
 
         named_genres = [genres[x] for x in labels_numeric]
