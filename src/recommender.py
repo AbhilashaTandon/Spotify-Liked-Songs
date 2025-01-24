@@ -27,15 +27,60 @@ def main():
     #     for sim_artist, score in plist_data.get_most_similar([artist], 5):
     #         print(sim_artist, score, sep='\t')
 
+    print(tf_idf.shape)
+
+    num_artist_to_keep = 5
+
+    from sklearn.model_selection import train_test_split
+
+    train, test = train_test_split(tf_idf, test_size=.2)
+
+    test_copy = test.copy()
+
+    for idx, rating in enumerate(test_copy):
+        # we randomly remove artists from rating
+        # and then try and use pca to reconstruct them
+        non_zero_indices = [idx for idx, val in enumerate(rating) if val > 0]
+
+        if len(non_zero_indices) == 0:
+            continue
+
+        num_indices_to_remove = max(
+            1, len(non_zero_indices)-num_artist_to_keep)
+        indices_to_zero = np.random.choice(
+            range(len(non_zero_indices)), replace=False, size=num_indices_to_remove)
+
+        test_copy[idx][indices_to_zero] = 0
+
+    n_components = 100
+
+    # while (n_components <= 4096):
+
     from sklearn.decomposition import TruncatedSVD
 
-    model = TruncatedSVD(n_components=100)
+    model = TruncatedSVD(n_components=n_components)
 
-    reduced = model.fit_transform(tf_idf)
+    model.fit(train)
 
-    print(reduced.shape)
+    reduced = model.transform(test_copy)
 
-    print(np.cumsum(model.explained_variance_ratio_))
+    reconstructed = model.inverse_transform(reduced)
+
+    mse = ((reconstructed - test)**2).mean(axis=None)
+
+    print(n_components, mse, sep='\t')
+
+    # n_components *= 2
+
+    # from sklearn.decomposition import TruncatedSVD
+
+    # model = TruncatedSVD(n_components=100)
+
+    # reduced = model.fit_transform(tf_idf)
+
+    # print(reduced.shape)
+
+    # print(np.cumsum(model.explained_variance_ratio_))
 
     def recommender(artists, n):
         input_vector = np.zeros(plist_data.num_artists)
